@@ -13,6 +13,18 @@ Projects completed as Python Developer Intern at Intern Academy
 #### Like By Hashtag -> 
 This function takes a Hashtag and Number of posts to be Liked, then Search for Hashtag on Instagram and Like the posts of the given Hashtag.
 <br>
-#### Like & Commaent By Hashtag ->
-This function takes a Hashtag and Number of posts to be Liked and make Comment, then Search for Hashtag on Instagram and Like and Comment on the posts of the given Hashtag.
+#### Like & Comment By Hashtag ->
+This function takes a Hashtag and Number of posts to be Liked and make Comment, then Search for Hashtag on Instagram and Like & Comment on the posts of the given Hashtag.
+<br>
+#### Like By Username ->
+This function takes a Username and Number of posts to be Liked, then Search for Username on Instagram and Like the posts of the given Username.
+<br>
+#### Like & Comment By Username ->
+This function takes a Username and Number of posts to be Liked and make Comment, then Search for Username on Instagram and Like & Comment on the posts of the given Username.
+<br>
+#### Follow People ->
+This function takes a Username or List of Usernames, then Search for each Username on Instagram and make a follow request on the User profile.
+<br>
+#### Share Post ->
+This function takes a Post URL or List of Post URLs and Username or List of Usernames, then visit each Post URL of Instagram and share the Post to the given Username or List of Usernames.
                           
