@@ -29,6 +29,6 @@ This function takes a Username or List of Usernames, then Search for each Userna
 This function takes a Post URL or List of Post URLs and Username or List of Usernames, then visit each Post URL of Instagram and share the Post to the given Username or List of Usernames.
 
 ### Requirements :
-selenium == 3.141.0
-tkinter == 0.1.0
-Pillow == 8.1.2
+selenium == 3.141.0<br>
+tkinter == 0.1.0<br>
+Pillow == 8.1.2<br>
