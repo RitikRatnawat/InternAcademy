@@ -10,5 +10,5 @@ Projects completed as Python Developer Intern at Intern Academy
 6. Enter username or usernames in lowercase only.
 
 ### Functions Provided :
-##### Like By Hashtag -> This function takes a <b>Hashtag</b> and Number of pots to be liked, <br>then search for hashtag on Instagram.
+#### Like By Hashtag -> This function takes a <b>Hashtag</b> and Number of pots to be liked, <br>then search for hashtag on Instagram.
                           
