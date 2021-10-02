@@ -2,7 +2,6 @@ from tkinter import *
 from PIL import ImageTk
 from tkinter.messagebox import showerror
 from bot import InstaAutoBot
-import sys
 
 # Instagram Automation Bot Creation
 mybot = InstaAutoBot()
@@ -16,15 +15,19 @@ class myTK(Tk):
 	# Editing the Exception Display Method
 	def report_callback_exception(self, exc, val, tb):
 		exc1 = str("<class 'selenium.common.exceptions.NoSuchElementException'>")
+		exc2 = str("<class 'selenium.common.exceptions.ElementClickInterceptedException'>")
+
 		if str(exc) == exc1:
 			mybot.driver.quit()
 			showerror("Error", message='Bad Network Connection or Invalid Username/Password. \n\n\t    Try Restarting the Bot!')
-			
-		
-		exc2 = str("<class 'selenium.common.exceptions.ElementClickInterceptedException'>")
-		if str(exc) == exc2:
+	
+		elif str(exc) == exc2:
 			mybot.driver.quit()
 			showerror("Error", message='Your Password is too short. \n Please Try Again!')
+
+		else:
+			showerror("Error", message= str(val))
+
 
 
 # Creating the Front-End for Instagram Automation Bot
@@ -304,7 +307,7 @@ class UI:
 
 
 	# Command Function for Follow People Button of Function frame
-	# To Follow people based on the Username or Usernames
+	# To Follow people based on the Username or List of Usernames
 	def follow(self):
 		usernames = self.name_var.get()
 		usernames = usernames.split(';')
@@ -346,7 +349,7 @@ class UI:
 
 
 	# Command Function for Share Post Button of Function frame
-	# To Share posts to the Username or Usernames
+	# To Share posts to the Username or List of Usernames
 	def share(self):
 		urls = self.url_var.get()
 		urls = urls.split(";")
