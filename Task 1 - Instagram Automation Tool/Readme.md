@@ -23,9 +23,9 @@ This function takes a Username and Number of posts to be Liked and make Comment,
 This function takes a Username or List of Usernames, then Search for each Username on Instagram and make a follow request on the User profile.
 <br>
 #### Share Post ->
-This function takes a Post URL or List of Post URLs and Username or List of Usernames, then visit each Post URL of Instagram and share the Post to the given Username or List of Usernames.
+This function takes a Post URL or List of Post URLs and Username or List of Usernames, then visit each Post URL of Instagram and share the Post to the given Username or List of Usernames.<br>
 
-<br>
+
 ### Requirements :
 selenium == 3.141.0<br>
 tkinter == 0.1.0<br>
