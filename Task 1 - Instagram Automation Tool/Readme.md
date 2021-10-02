@@ -1,3 +1,5 @@
+![alt text](https://github.com/RitikRatnawat/Intern_Academy/blob/fadac8dca99331cf8f7b7588c2ba4691345d88a3/Task%201%20-%20Instagram%20Automation%20Tool/InstaAutoBot/title.png)
+
 ### Instructions :
 1. Do not close the Browser window while running the Bot.
 2. You should have stable Internet Connection.
