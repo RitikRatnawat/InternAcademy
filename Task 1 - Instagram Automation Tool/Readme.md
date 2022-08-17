@@ -4,6 +4,10 @@
 
 ![alt text](https://github.com/RitikRatnawat/Intern_Academy/blob/87d0117e32e3abc3cb7a528d87d36512137fd13d/Task%201%20-%20Instagram%20Automation%20Tool/InstaAutoBot/Screenshots/Login.png)
 
+### How to Use :
+1. Clone the Repository
+2. Run the main.py file of the Respository.
+
 ### Instructions :
 1. Do not close the Browser window while running the Bot.
 2. You should have stable Internet Connection.
